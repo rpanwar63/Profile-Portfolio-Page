@@ -1,0 +1,399 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:'Quicksand', sans-serif;
+}
+#fp-nav ul li a span,.fp-slidesNav ul li a span {
+	transform: scale(1.5);
+}
+.fp-slidesNav.bottom{
+		bottom: 25px;
+}
+.fp-controlArrow.fp-next,.fp-controlArrow.fp-prev{
+		display: none;
+}
+.header{
+	position: absolute;
+	height: ;
+	top:0;
+	width:100%;
+	text-align: left;
+	color: #323232;
+	padding-left: 20px;
+	padding-top: 10px;
+	font: 30 9vh/1.3 'Pacifico', Helvetica, sans-serif;
+	text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	z-index:5;
+}
+.landingPage, .aboutPage, .portfolioPage, .contactPage {
+	height: 100vh;
+	width:100%;
+	position: relative;
+}
+.landingPage div {
+	position: absolute;
+	left:10%;
+	width:80%;
+	height:auto;
+	padding:0;
+}
+.mainHeading {
+	top:30%;
+	font-size: 4.5vw;
+}
+.subHeading {
+	top:50%;
+	margin-top: 10px;
+	font-size: 2.2vw;
+}
+.easy {
+	font-family:'Pacifico', Helvetica, sans-serif;
+	font-size: 4.5vw;
+	color: crimson;
+}
+.aboutPage .container {
+	position: absolute;
+	width:70%;
+	top:20%;
+	left:15%;
+	background-color: rgba(0, 0, 0, .7);
+	border-radius:25px;
+}
+.aboutPage .container{
+	height:60%;
+}
+.aboutPage .container .imgcard {
+	position: absolute;
+	top:10%;
+	left:4%;
+	width:30%;
+	height: 80%;
+	background:#fff;
+	border-radius:20px;
+	box-shadow: inset 6px 6px 8px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+.aboutPage .container .namecard {
+	position: absolute;
+	top:10%;
+	left:34%;
+	width:62%;
+	height: 80%;
+	border-radius:20px;
+	font-family:'Quicksand', sans-serif;
+}
+.namecard p:first-child {
+	margin:0;
+	padding-left: 30px;
+	font-size: 50px;
+	color: #e2e2e2;
+}
+.namecard p:nth-child(2) {
+	margin-top:5px;
+	padding-left:30px;
+	font-size: 30px;
+	color: #c8c8c8;
+}
+.namecard p{
+	margin-top:15px;
+	padding-left:30px;
+	font-size: 20px;
+	color: #c8c8c8;
+}
+.namecard span {
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 30px;
+}
+.namecard span:first-child {
+	color: #FF5733;
+}
+.namecard span:nth-child(2) {
+	color: #226A12;
+}
+.namecard span:nth-child(3) {
+	color: #FFEE7F;
+}
+.namecard span:nth-child(4) {
+	color: #FF5733;
+}
+.namecard span:nth-child(5) {
+	color: #43C526;
+}
+.contactPage .container {
+	position: absolute;
+	top:20%;
+	left:15%;
+	height:60%;
+	width:70%;
+	background-color: rgba(0, 0, 0, .7);
+	border-radius:25px;
+}
+.contactPage .container .contactForm {
+	position: absolute;
+	top:10%;
+	left:10%;
+	width:30%;
+	height: 80%;
+}
+.contactForm input, .contactForm textarea {
+	width: 100%;
+	font-size:16px;
+	border:none;
+	border-bottom: 5px solid #1C68FF;
+	padding-left:10px; 
+	border-radius: 8px;
+	margin-top: 20px;
+}
+.contactForm input:focus, .contactForm textarea:focus {
+	outline: 0;
+}
+.contactForm input {
+	height: 40px;
+}
+.contactForm textarea {
+	margin-top: 20px;
+	height: 150px;
+	resize: none;
+}
+.contactForm button {
+	border:none;
+	padding: 0;
+	width:14%;
+	height:12%;
+	margin-left: 43%;
+	background: none;
+}
+.contactForm button:focus {
+	outline: 0;
+}
+.contactForm button i {
+	color:#1C68FF;
+	font-size: 30px;
+}
+.socialLinks {
+	position: absolute;
+	top:10%;
+	left:45%;
+	width:45%;
+	height: 80%;
+	font-family:'Quicksand', sans-serif;
+}
+.socialLinks p:first-child {
+	margin-top:20px;
+	padding-left: 30px;
+	font-size: 20px;
+	color: #e2e2e2;
+}
+.socialLinks p:nth-child(2) {
+	margin-top:2px;
+	padding-left:30px;
+	font-size: 30px;
+	color: #fff;
+}
+.socialLinks p{
+	margin-top:15px;
+	padding-left:30px;
+	font-size: 20px;
+	color: #e2e2e2;
+}
+#copymail span:last-child {
+	margin-top: 0px;
+	font-size: 20px;
+	color:#FF5733;
+	opacity: 0;
+	transition: opacity 0.2s linear;
+}
+#socialLinks span {
+	font-weight: 400;
+	font-size: 2em;
+	letter-spacing: 30px;
+}
+#socialLinks span a {
+	text-decoration: none;
+	color:inherit;
+}
+#socialLinks span i {
+	transition: transform 0.3s linear;
+}
+#socialLinks span i:hover {
+	transform: scale(1.5);
+}
+#socialLinks span:first-child {
+	color: #005DFF;
+}
+#socialLinks span:nth-child(2) {
+	color: #00B6FF;
+}
+#socialLinks span:nth-child(3) {
+	color: #005DFF;
+}
+#socialLinks span:nth-child(4) {
+	color: #FF0055;
+}
+
+
+
+
+
+
+@media (max-width: 479.98px) {
+	.subHeading {
+		margin-top: 0px;
+	}
+	.aboutPage .container {
+		height: 80%;
+		border-radius:2px;
+	}
+	.aboutPage .container .imgcard {
+		top:5%;
+		left:40%;
+		width:30%;
+		height:30%!important;
+	}
+	.aboutPage .container .namecard {
+		top:35%!important;
+		height: 60%!important;
+	}
+	.namecard p:first-child {
+		padding-left: 0;
+		font-size: 30px;
+	}
+	.namecard p:nth-child(2) {
+		font-size: 15px;
+		padding-left: 0;
+	}
+	.namecard p{
+		font-size: 15px;
+		padding-left: 0;
+	}
+	.namecard span {
+		font-size: 2em;
+		padding-left: 0;
+		letter-spacing: 8px;
+	}
+	.contactPage .container {
+		height:80%!important;
+		top:15%!important;
+	}
+	.contactPage .container .contactForm {
+		left:10%!important;
+		width:80%!important;
+		height:40%;
+	}
+	.contactForm input {
+		height: 30px;
+	}
+	.contactForm textarea {
+		margin-top: 20px;
+		height: 100px;
+		resize: none;
+	}
+	.contactPage .container .socialLinks{
+		margin-top: 10%!important;
+	}
+	.socialLinks p{
+		padding-left: 0;
+	}
+	.socialLinks p:first-child {
+		font-size: 15px;
+	}
+	.socialLinks p:nth-child(2) {
+		font-size: 20px;
+	}
+	.socialLinks p:nth-child(3){
+		margin-top:5px;
+		font-size: 15px;
+	}
+	#copymail span:last-child {
+		margin-top: 0px;
+		font-size: 10px;
+	}
+	#socialLinks span {
+		font-size: 1em;
+		letter-spacing: 15px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.header{
+		padding-left: 20px;
+		font: 20 5vh/1.3 'Pacifico', Helvetica, sans-serif;
+		text-align: center;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	#fp-nav ul li a span,.fp-slidesNav ul li a span {
+		transform: scale(2);
+	}
+	.landingPage div {
+		left:8%;
+		width:84%;
+	}
+	.mainHeading {
+		top:30%;
+		font-size: 8vw;
+	}
+	.subHeading {
+		top:50%;
+		font-size: 4vw;
+	}
+	.easy {
+		font-family:'Pacifico', Helvetica, sans-serif;
+		font-size: 8vw;
+		color: crimson;
+	}
+	.aboutPage .container {
+		position: absolute;
+		width:80%;
+		top:20%;
+		left:10%;
+		background-color: rgba(0, 0, 0, .7);
+		border-radius:25px;
+		height:60%;
+	}
+	.aboutPage .container .imgcard {
+		top:5%;
+		left:32%;
+		width:35%;
+		height: 40%;
+	}
+	.aboutPage .container .namecard {
+		top:50%;
+		left:0%;
+		width:100%;
+		height: 50%;
+		text-align: center;
+	}
+	.contactPage .container {
+		position: absolute;
+		width:80%;
+		top:20%;
+		left:10%;
+		background-color: rgba(0, 0, 0, .7);
+		border-radius:25px;
+		height:70%;
+	}
+	.contactPage .container .contactForm {
+		top:5%!important;
+		left:20%!important;
+		width:60%!important;
+		height:40%;
+	}
+	.contactForm input {
+		height: 50px;
+	}
+	.contactForm textarea {
+		margin-top: 20px;
+		height: 150px;
+		resize: none;
+	}
+	.contactPage .container .socialLinks {
+		top:52%;
+		left:0%;
+		width:100%;
+		height: 50%;
+		text-align: center;
+	}
+}
